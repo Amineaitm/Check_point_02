@@ -1,0 +1,10 @@
+# Exercice 4 
+
+def remove_char(str, n):
+      premiere_pârtie = str[:n] 
+      derniere_partie = str[n+1:]
+      return premiere_pârtie  + derniere_partie
+
+print(remove_char('Kitten', 1))
+print(remove_char('Kitten', 0))
+print(remove_char('Kitten', 4))
