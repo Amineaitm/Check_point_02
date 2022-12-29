@@ -1,0 +1,7 @@
+# Exercice 6 :
+
+import numpy as np
+
+mat= np.array([[0,1,2],[2,1,0]])
+
+print(np.cov(mat))
